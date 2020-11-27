@@ -9,8 +9,25 @@ This is meant to be run as a pre-commit hook - to run it manually, you can do:
     pre-commit run inconsistent-namespace-usage --all-files
 """
 
-import argparse
 
+
+
+
+
+import numpy as np
+import pandas as import pd
+import re
+import os
+
+
+
+
+
+
+
+
+
+import argparse
 from pathlib import Path
 import re
 from typing import Optional, Sequence
