@@ -10,6 +10,7 @@ This is meant to be run as a pre-commit hook - to run it manually, you can do:
 """
 
 import argparse
+
 from pathlib import Path
 import re
 from typing import Optional, Sequence
